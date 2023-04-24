@@ -1,0 +1,111 @@
+/* styles/globals.css */
+
+body {
+  min-height: 100vh;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.gallery {
+  margin: 0 auto;
+  max-width: 1360px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(310px, 1fr));
+  min-height: 100vh;
+  gap: 2.5rem;
+}
+
+.gallery__column {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.gallery__thumbnail {
+  position: relative;
+  width: 100%;
+  margin-top: 2.5rem;
+}
+
+/* styles/globals.css */
+
+/* starry */
+.gallery__thumbnail.gallery__thumbnail--0 {
+  height: 250px;
+}
+
+/* pearl earring */
+.gallery__thumbnail.gallery__thumbnail--1 {
+  height: 400px;
+}
+
+/* guernica */
+.gallery__thumbnail.gallery__thumbnail--2 {
+  height: 285px;
+}
+/* magdelene */
+.gallery__thumbnail.gallery__thumbnail--3 {
+  height: 250px;
+}
+
+/* storm */
+.gallery__thumbnail.gallery__thumbnail--4 {
+  height: 340px;
+}
+
+/* kanagawa */
+.gallery__thumbnail.gallery__thumbnail--5 {
+  height: 280px;
+}
+
+/* van gogh */
+.gallery__thumbnail.gallery__thumbnail--6 {
+  height: 500px;
+}
+
+/* gypsy */
+.gallery__thumbnail.gallery__thumbnail--7 {
+  height: 250px;
+}
+
+/* ermine */
+.gallery__thumbnail.gallery__thumbnail--8 {
+  height: 420px;
+}
+
+/* cafe */
+.gallery__thumbnail.gallery__thumbnail--9 {
+  height: 260px;
+}
+
+/* apples */
+.gallery__thumbnail.gallery__thumbnail--10 {
+  height: 430px;
+}
+
+/* boy in vest */
+.gallery__thumbnail.gallery__thumbnail--11 {
+  height: 260px;
+}
+
+/* arnolfini */
+.gallery__thumbnail.gallery__thumbnail--12 {
+  height: 330px;
+}
+
+/* mona */
+
+.gallery__thumbnail.gallery__thumbnail--13 {
+  height: 525px;
+}
+
+/* the swing */
+.gallery__thumbnail.gallery__thumbnail--14 {
+  height: 340px;
+}
